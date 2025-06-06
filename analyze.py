@@ -8,7 +8,7 @@ def connect_to_database():
         host='localhost',
         user='root',
         password='',
-        database='stock_data_db'
+        database='stock_data'
     )
     print("Connected to MySQL database")
     return conn
